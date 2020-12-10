@@ -1,0 +1,344 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.structure {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    margin-top: 10px;
+    margin-left: 20%;
+    display: flex;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: yellow;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+}
+
+.box {
+    display: flex;
+    height: 38vh;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-top: 20px;
+    position: relative;
+    z-index: -1;
+    background-color: black;
+    align-items: center;
+}
+
+.containera {
+    width: 40%;
+    height: 95%;
+    padding: 10px;
+    margin-left: 5px;
+    object-fit: contain;
+}
+
+.containerb {
+    margin-right: 5px;
+    background-color: red;
+    width: 60%;
+    height: 95%;
+}
+
+.left-box-title {
+    color: blanchedalmond;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.ingredients {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ingredients__style {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap-login100 {
+    width: 680px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.login100-form-title {
+    width: 100%;
+    display: block;
+    font-family: Montserrat-Medium;
+    font-size: 39px;
+    color: #555555;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.btn-google {
+    font-family: fantasy;
+    font-size: 35px;
+    line-height: 1.2;
+    margin-left: 20%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: calc((100% - 20px) / 2);
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1;
+}
+
+.guest {
+    background-color: rgb(255, 61, 2);
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 100px;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.guest h3 {
+    color: rgba(252, 255, 80, 0.89);
+}
+
+.profile-card {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #092844;
+    padding: 60px 40px;
+}
+
+.pic {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient {
+    25% {
+        background-position: left bottom;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: right top;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+.pic img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 18px;
+    color: #e66767;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 50px;
+    color: #e66767;
+    border: 2px solid #e66767;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.contact-btn:hover {
+    background: #e66767;
+    color: #f2f2f2;
+}
+
+.card-footer {
+    background: #f4f4f4;
+    padding: 60px 10px;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e66767;
+}
+
+.item span {
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+}
+
+.border {
+    width: 1px;
+    height: 30px;
+    background: #bbb;
+}
+
+.btn {
+    background: no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 80%;
+    margin-left: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
