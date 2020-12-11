@@ -1,7 +1,6 @@
 import React from "react";
 import "./Test.css";
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
 import SidebarData from "./SidebarData.js";
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import CloseIcon from '@material-ui/icons/Close';
