@@ -1,7 +1,7 @@
 {
     "name": "foodocean",
     "version": "0.1.0",
-    "homepage": "https://johnwick3690.github.io/recipeapp",
+    "homepage": "https://github.com/johnwick3690/proto.github.io",
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.11.2",

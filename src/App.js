@@ -8,36 +8,24 @@ import About from "./About.js";
 import Recipemaindt from "./Recipemaindt.js";
 
 export default function App() {
-    return ( <
-        Router >
-        <
-        Switch >
-        <
-        Route exact path = "/" >
-        <
-        Login / >
-        <
-        /Route> <
-        Route path = "/recipe" >
-        <
-        Test / >
-        <
-        Recipemain / >
-        <
-        /Route> <
-        Route path = "/about" >
-        <
-        About / >
-        <
-        /Route> <
-        Route path = "/recipedt" >
-        <
-        Test / >
-        <
-        Recipemaindt / >
-        <
-        /Route> <
-        /Switch> <
-        /Router>
-    );
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Login />
+        </Route>{" "}
+        <Route path="/recipe">
+          <Test />
+          <Recipemain />
+        </Route>{" "}
+        <Route path="/about">
+          <About />
+        </Route>{" "}
+        <Route path="/recipedt">
+          <Test />
+          <Recipemaindt />
+        </Route>{" "}
+      </Switch>{" "}
+    </Router>
+  );
 }
